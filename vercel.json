@@ -1,0 +1,11 @@
+{
+	"functions": {
+		"api/predict.ts": {
+			"memory": 1024,
+			"maxDuration": 10
+		}
+	},
+	"edges": {
+		"cache-control": "s-maxage=1, stale-while-revalidate"
+	}
+}

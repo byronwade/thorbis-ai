@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+bun.lockb
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# TensorFlow.js specific
+**/tfjs_artifacts/
+model_weights/
+*.weights.bin
+*.json.gz
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Debug files
+debug/
+.debug/
+
+# Vercel
+.vercel
+.now
